@@ -9,6 +9,7 @@ def turn(board)
     while valid_move(board, index) == false
       turn(board)
     end
+  end
 end
 
 def display_board(board)
